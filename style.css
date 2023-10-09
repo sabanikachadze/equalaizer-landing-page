@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.phone{
+  width: 208.972px;
+  height: 430px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-top: -50rem ;
+}
+header{
+  margin: 40px 24px 166px 24px;
+}
+footer{
+  margin-top: 50rem;
+}
+.about{
+  top:38rem;
+}
+.name{
+  margin-bottom: 64px;
+  width: 146.093px;
+  height: 32px;
+  flex-shrink: 0;
+  fill: #191826; 
+}
+.purpose{
+  color: #191826;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: -0.455px;
+  width: 327px;
+}
+.description{
+  color: #191826;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-top: 1rem;
+}
+.background{
+  width: 375px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #191826;
+}
+.blue{
+  width: 281.405px;
+  height: 281.405px;
+  flex-shrink: 0;
+  border-radius: 281.405px;
+  opacity: 0.2825;
+  background: #40FFF6;
+  filter: blur(67.95704650878906px);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.orange{
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  width: 281.405px;
+  height: 281.405px;
+  flex-shrink: 0;
+  border-radius: 281.405px;
+  opacity: 0.1532;
+  background: #FF9201;
+  filter: blur(67.95704650878906px);
+}
+
+                       /* background sesing */
+
+.group{
+  padding: 0px 47px 160px 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 400px;
+  margin: auto;
+}
+
+.first{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  grid-column: 1/2 ;
+}
+.second{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 78px;
+  background: #FFB964;
+  grid-column: 1/2 ;
+}
+.third{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  grid-column: 1/2 ;
+}
+.forth{
+  width: 140px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 0px 100px;
+  background: #66E2DC;
+  grid-column: 2/3 ;
+  grid-row: 2 / 3 ;
+}
+section{
+  width: 375px;
+  height: 546px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #FA7453;
+  position: relative;
+  bottom: 5rem;
+}
+.type{
+  color: #FCFAF9;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 12px; 
+}
+.padding{
+  padding: 48px 36px 48px 36px;
+}
+.features{
+  color: #FCFAF9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 36px; 
+}
+.price{
+  display: flex;
+  margin-bottom: 36px;
+  align-items: center;
+}
+.number{
+  color: #FCFAF9;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; 
+}
+.time{
+  color: #FCFAF9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-left: 16px;
+}
+
+.apple-button{
+  width: 296px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #191826;
+  color: #FCFAF9;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border: none;
+  margin-bottom: 16px;
+}
+.androind-button{
+  width: 296px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #FCFAF9;
+  color: #191826;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border: none;
+  margin-bottom: 48px;
+}
+
+.name-2{
+  width: 146.093px;
+  height: 32px;
+  fill: #191826;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+.contact{
+  color: #191826;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom: 80px;
+}
+.bottom{
+ width:350px;
+}
+@media(min-width:700px){
+ body{
+   background: url(bg-pattern-1.svg);
+   background: url(bg-pattern-1.svg);
+   background-repeat: no-repeat;
+   background-position: top -30px right -30px;
+  background-size: 200px;
+}
+
+  .blue{
+    transition: 1s;
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    width: 384px;
+    height: 384px;
+    flex-shrink: 0;
+    border-radius: 384px;
+    opacity: 0.2825;
+    background: #40FFF6;
+    filter: blur(67.95704650878906px);
+  }
+  .orange{
+    transition: 1s;
+    right: 0;
+    top:30rem;
+    width: 384px;
+    height: 384px;
+    flex-shrink: 0;
+    border-radius: 384px;
+    opacity: 0.1532;
+    background: #FF9201;
+    filter: blur(67.95704650878906px);
+  }
+  header{
+    margin: 62px 176px 250px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name{
+    width: 146.093px;
+    height: 32px;
+    flex-shrink: 0;
+    transition: 1s;
+  }
+  .purpose{
+    color: #191826;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.727px;
+    width: 520px;
+    transition: 1s;
+  }
+  .description {
+    color: #191826;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 25px;
+    width: 514px;
+    transition: 1s;
+  }
+  .orange-1{
+    transition: 1s;
+    left: -10rem;
+    top:-10rem;
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    flex-shrink: 0;
+    border-radius: 384px;
+    opacity: 0.1532;
+    background: #FF9201;
+    filter: blur(67.95704650878906px);
+  }
+  .background{
+    width: 696px;
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    transition: 1s;
+    margin-right:40px ;
+  }
+  .phone{
+    margin-right: 38rem;
+    margin-top: 3rem;
+    transition: 1s;
+    width: 270.206px;
+    height: 556px;
+    flex-shrink: 0;
+  }
+ .about{
+  position: relative;
+  left: 26rem;
+  top: 25rem;
+  
+  width: 399px;
+  height: 546px;
+  flex-shrink: 0;
+  transition: 1s;
+  border-radius: 12px;
+  background: #FA7453;
+ }
+ footer{
+  margin-top: 25rem;    
+}
+.bottom{
+ width: 100%;
+ margin: auto;
+ display: flex;
+ align-items: center;
+}
+.name-2{
+  width: 146.093px;
+  height: 32px;
+  flex-shrink: 0;
+  display: block;
+}
+.contact{
+  color: #191826;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 366px;
+  margin-right: 20rem;
+}
+  .logos{
+    width: 100px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1200px){
+  body{
+    width: 100%;
+    background-size: 300px;
+  }
+  header{
+    width: 50%;
+  }
+  .name{
+    margin-bottom: 10rem;
+  }
+  .purpose{
+    color: #191826;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; 
+    letter-spacing: -1px;
+    width: 1015px;
+    transition: 1s;
+  }
+  .description{
+    color: #191826;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+    width: 825px;
+    margin-top: 5rem;
+    transition: 1s;
+  }
+  .background{
+    width: 1110px;
+    height: 600px;
+    flex-shrink: 0;
+    transition: 1s;
+  }
+  .phone{
+    margin-right: 70rem;
+    transition: 1s;
+  }
+  .about{
+  left: 60rem;
+  transition: 1s;
+  }
+  footer{
+    width: 100%;
+  }
+  .name-2{
+    display: inline;
+    margin-right: 20rem;
+    transition: 1s;
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+  }
+  .contact{
+    display: inline-block;
+    width: 366px;
+    color: #191826;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 20rem;
+  }
+  .apple-button{
+    background-color: #191826;;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .apple-button:hover{
+    background: #66E2DC;
+    transition: 1s;
+  }
+  .androind-button{
+    background: #FCFAF9;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .androind-button:hover{
+    background: #FFB964;
+    transition: 1s;
+  }
+  .logo1{
+    fill: #FFF;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 1px 2px #000);
+   transition: 1s;
+   cursor: pointer;
+  }
+  .logo1:hover{ 
+    transition: 0.5s;
+    width: 22px;
+    height: 22px;
+    background-color: rgb(84, 143, 252);
+    border-radius: 2px;
+  }
+  .logo2{
+    fill: #FFF;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 1px 2px #000);
+   transition: 0.2s;
+   cursor: pointer;
+  }
+  .logo2:hover{ 
+    transition: 0.2s;
+    width: 22px;
+    height: 22px;
+    background-color: orange;
+    border-radius: 6px;
+  }
+  .logo3{
+    fill: #FFF;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 1px 2px #000);
+   transition: 1s;
+   cursor: pointer;
+  }
+  .logo3:hover{ 
+    transition: 0.5s;
+    width: 25px;
+    height: 21px;
+    background-color: rgb(106, 245, 203);
+    border-radius: 3px;
+  }
+  .logos{
+    margin-right: 10rem;
+  }
+}
